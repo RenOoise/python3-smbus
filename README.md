@@ -28,6 +28,7 @@ python3 setup.py --help-commands
 ## Frequently Answered Question:
 
 Q: It's throwing exceptions, nothing works, what's wrong?
+
 A1: You need write permissions to the i2c-dev devices.  Try running as root.
 
 A2: Addresses in Linux/I2C are the most-sig 7 bits, right-justified.  E.g.
